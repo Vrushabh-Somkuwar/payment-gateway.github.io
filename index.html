@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Charity Website</title>
+  <style>
+    /* CSS styles */
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #333;
+      color: #FFF;
+    }
+
+    header {
+      background-color: #222;
+      padding: 20px;
+      text-align: center;
+    }
+
+    main {
+      padding: 20px;
+    }
+
+    .section {
+      margin-bottom: 40px;
+      text-align: center;
+    }
+
+    h2 {
+      margin-top: 0;
+      font-family: 'Helvetica', sans-serif;
+    }
+
+    p {
+      line-height: 1.6;
+      font-family: 'Verdana', sans-serif;
+    }
+
+    .gallery {
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+    }
+
+    .gallery img {
+      width: 300px;
+      height: auto;
+      object-fit: cover;
+      margin: 0 10px;
+    }
+
+    .center {
+      text-align: center;
+    }
+
+    .learn-button,
+    .donate-button {
+      display: inline-block;
+      padding: 10px 20px;
+      margin-top: 20px;
+      font-size: 18px;
+      font-weight: bold;
+      text-decoration: none;
+      color: #FFF;
+      background-color: #63ef3c;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      font-family: 'Arial', sans-serif;
+    }
+
+    .learn-button:hover,
+    .donate-button:hover {
+      background-color: #2b8f03;
+    }
+
+    .contact-section {
+      background-color: #222;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .contact-form {
+      display: inline-block;
+      text-align: left;
+    }
+
+    .contact-form h2 {
+      margin-top: 0;
+      font-family: 'Helvetica', sans-serif;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+      width: 100%;
+      padding: 8px;
+      border-radius: 4px;
+      border: 1px solid #ccc;
+      font-family: 'Verdana', sans-serif;
+    }
+
+    .contact-form input[type="submit"] {
+      padding: 12px 24px;
+      font-size: 18px;
+      font-weight: bold;
+      color: #FFF;
+      background-color: #5c5959;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      font-family: 'Arial', sans-serif;
+    }
+
+    .contact-form input[type="submit"]:hover {
+      background-color: #2e2c2c;
+    }
+
+    .quote-section {
+      background-color: #111;
+      padding: 20px;
+      text-align: center;
+      font-family: 'Georgia', serif;
+    }
+
+    .quote-section p {
+      font-style: italic;
+      font-size: 18px;
+      color: #EEE;
+      line-height: 1.6;
+      font-family: 'Georgia', serif;
+    }
+
+    footer {
+      background-color: #222;
+      color: #FFF;
+      padding: 10px;
+      text-align: center;
+      font-family: 'Arial', sans-serif;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Giving Hands Foundation</h1>
+  </header>
+
+  <main>
+    <section class="section">
+      <div class="left-section">
+        <h2>About Us</h2>
+        <p>In a world where compassion thrives,
+          A spirit of giving forever survives.
+          Charity's wings spread far and wide,
+          With selflessness as its humble guide.
+          
+          Benevolent hearts, united in grace,
+          Extend their hands to a struggling place.
+          With open arms, they embrace the needy,
+          Filling lives with love, making them seedy.
+          
+          Generosity blooms like a radiant flower,
+          Empathy's strength empowers each hour.
+          In acts of kindness, miracles take flight,
+          Illuminating the darkest corners with light.
+          
+          A single act of charity, a seed sown,
+          Brings hope to those who feel alone.
+          With every gift, a life transformed,
+          A ripple of change, beautifully performed.
+          
+          Together we build a world that's just,
+          Where compassion and love are a must.
+          For in charity's embrace, we find,
+          A unity that makes us all intertwined.
+          
+          So let us stand together, hand in hand,
+          Spreading kindness across the land.
+          For in each act of selfless giving,
+          We discover the true joy of living.</p>
+        
+        
+          <form><script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_Lz6nm5DInvdWJj" async> </script> </form>
+      </div>
+
+      <div class="right-section">
+        <div class="gallery">
+          <img src="raw1.jpg" alt="Image 1">
+          <img src="raw.png" alt="Image 2">
+          <img src="raw2.jpg" alt="Image 3">
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-section">
+      <div class="contact-form">
+        <h2>Contact Us:</h2>
+        <form action="/action_page.php">
+          <label for="fname">First Name:</label>
+          <input type="text" id="fname" name="fname"><br><br>
+          <label for="lname">Last Name:</label>
+          <input type="text" id="lname" name="lname"><br><br>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email"><br><br>
+          <label for="message">Message:</label>
+          <textarea id="message" name="message"></textarea><br><br>
+          <input type="submit" value="Submit">
+        </form>
+      </div>
+    </section>
+
+    <section class="section quote-section">
+      <h2>HELP CHILDREN IN NEED</h2>
+      <p>"The best way to find yourself is to lose yourself in the service of others." - Mahatma Gandhi</p>
+     >
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 Giving Hands Foundation</p>
+  </footer>
+</body>
+</html>
